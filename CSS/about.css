@@ -1,0 +1,79 @@
+.about-us
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /* position: absolute; */
+}
+
+.bg-img
+{
+    position: relative;
+    margin-top: 21px;
+    background-image: url('../img/logo/Atorn_background_2.png');
+    background-size: cover;
+    background-position: center;
+    height: 355px;
+    margin-bottom: 20px;
+}
+
+.about-text
+{
+    color: #6C6C6C;
+    border-bottom: 2px solid #c82424;
+    width: 60px;
+    padding-bottom: 10px;
+}
+
+.about-us h1
+{
+    padding-top: 26px;
+    padding-bottom: 26px;
+    font-size: 24px;
+    font-family: Merriweather;
+}
+
+.about-us span
+{
+    color: #c82424;
+}
+
+.about-us-text
+{
+    color: #6C6C6C;
+    width: 100%;
+    padding-bottom: 26px;
+    text-align: justify;
+}
+
+.icons
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+    padding-top: 13px;
+    color: #6C6C6C;
+}
+
+.icons img
+{
+    height: 20px;
+    width: 20px;
+    color: #6C6C6C;
+    filter: invert(46%) sepia(7%) saturate(17%) hue-rotate(314deg) brightness(90%) contrast(93%);
+}
+
+.values-button
+{
+    margin-top: 20px;
+    background-color: #c82424;
+    border-radius: 5px;
+    height: 38px;
+    width: 124px;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+

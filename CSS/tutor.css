@@ -1,0 +1,101 @@
+.topbar
+{
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 0.2px solid #000;
+}
+
+.topcontact
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.topcontact i
+{
+    width: 20px;
+    height: 20px;
+}
+
+.topmailtext, .topphonetext
+{
+    display: flex;
+    align-items: center;
+}
+
+.topmailtext span, .topphonetext span
+{
+font-size: 12px;
+font-weight: 700;
+}
+
+.topsocials
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.topicons
+{
+    display: flex;
+    gap: 5px;
+}
+
+.icon-container
+{
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn
+{
+    background: #c82424;
+    color: #ffffff;
+    width: 126px;
+    height: 38px;
+    border: none;
+}
+
+.navitems
+{
+    display: none;
+}
+
+nav .navicon
+{
+    color: #c82424;
+}
+
+@media (min-width:601px)
+{
+    .topbar
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+    .topcontact, .topsocials
+    {
+        width: 50%;
+        gap: 20px;
+    }
+
+    .topcontact
+    {
+        justify-content: flex-start;
+    }
+}

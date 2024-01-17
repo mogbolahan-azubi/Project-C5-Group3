@@ -1,0 +1,42 @@
+.services
+{
+    background-color: #F9F9F9;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 36px;
+    margin-bottom: 37px;
+    /* position: relative; */
+}
+
+.services div
+{
+    /* position: relative; */
+    height: 254px;
+    /* width: 350px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 0.50px #CDC9C9 solid;
+}
+
+.services p
+{
+    width:274px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.services p:first-of-type
+{
+    font-size: 18px;
+}
+
+.services-image
+{
+    height: 50px;
+    width: 50px;
+    /* stroke: aqua;
+    stroke-width: 0.1%; */
+}

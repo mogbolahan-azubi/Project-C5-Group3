@@ -1,5 +1,4 @@
-.founder-message
-{
+.founder-message {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -18,34 +17,29 @@
     border-radius: 5px;
 }
 
-.founder-message h1
-{
+.founder-message h1 {
     padding-top: 30px;
     font-size: 20px;
     font-weight: 700;
 }
 
-.founder-message p
-{
+.founder-message p {
     font-size: 14px;
     color: #f4d3d5;
     text-align: justify;
 }
 
-.founder-message img
-{
+.founder-message img {
     width: 96px;
     height: 39px;
 }
 
-.founder-message h2
-{
+.founder-message h2 {
     font-size: 14px;
     font-weight: 700;
 }
 
-.founder-message h3
-{
+.founder-message h3 {
     font-size: 14px;
     font-weight: 400;
 }
@@ -58,9 +52,9 @@
 
 .video {
     position: relative;
-    width: 100%;
+    width: 93%;
     height: 0;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+    padding-bottom: 56.25%;
     margin: 20px;
 }
 

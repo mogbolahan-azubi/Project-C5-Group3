@@ -5,12 +5,8 @@
     background-image: url(../img/logo/Atorn_background-contact.jpeg);
     background-position: center;
     object-fit: cover;
-}
-
-.contact-bg
-{
-
-
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .contact-bg-overlay-text
@@ -25,12 +21,39 @@
 .forms img
 {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
-
-    border: 0.7px solid white;
-    background-color: blue;
+    /* border: 0.7px solid white; */
+    /* background-color: blue; */
 }
 
-input
+
+
+
+input 
 {
-    height: 100%;
+    height: 50px;
+    width: 70%;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+}
+
+.contact-form
+{
+    display: inline-block;
+    padding-top: 20px;
+    align-self: center;
+}
+
+.contact-form img
+{
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+
+.forms
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
 }

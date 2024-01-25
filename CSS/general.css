@@ -27,6 +27,7 @@ li
     justify-content: space-between;
     gap: 20px;
     width: 90%;
+    margin-right: 10px;
 }
 
 .topemail, .topphone

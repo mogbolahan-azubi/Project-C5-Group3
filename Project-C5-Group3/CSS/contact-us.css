@@ -1,0 +1,26 @@
+.contact-us {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/logo/Atorn_background-contact.jpeg);
+    background-position: center;
+    object-fit: cover;
+}
+
+.contact-bg-overlay-text {
+    color: white;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.forms img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+
+    border: 0.7px solid white;
+    background-color: blue;
+}
+
+input {
+    height: 100%;
+}

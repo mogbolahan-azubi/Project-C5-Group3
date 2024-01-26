@@ -1,27 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="test.css">
-    </head>
-
-    <body>
-
-        <div class="forms">
-            <form action="">
-                <i class="contact-form"><img src="./img/feather/user.svg" alt=""><input type="text"
-                        placeholder="Full name"></i><br>
-                <i class="contact-form"><img src="./img/feather/mail.svg" alt=""><input type="email"
-                        placeholder="Email Address"></i><br>
-                <i class="contact-form"><img src="./img/feather/phone.svg" alt=""><input type="text"
-                        placeholder="Phone No"></i><br>
-                <i class="contact-form"><img src="./img/feather/calendar.svg" alt=""><input type="date"
-                        placeholder="dd/mm/yyy"></i>
-            </form>
+<div class="forms">
+    <form action="">
+        <div class="contact-form">
+            <div class="image-container">
+                <img src="./img/feather/user.svg" alt="" class="contact-form">
+            </div>
+            <input type="text" placeholder="Full name">
         </div>
-    </body>
+        <div class="contact-form">
+            <div class="image-container">
+                <img src="./img/feather/mail.svg" alt="" class="contact-form">
+            </div>
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="contact-form">
+            <div class="image-container">
+                <img src="./img/feather/phone.svg" alt="" class="contact-form">
+            </div>
+            <input type="text" placeholder="Phone No">
+        </div>
+        <div class="contact-form">
+            <div class="image-container">
+                <img src="./img/feather/calendar.svg" alt="" class="contact-form">
+            </div>
+            <input type="date" placeholder="dd/mm/yyy">
+        </div>
+        <div class="contact-form text-area">
+            <div class="image-container">
+                <img src="./img/feather/message-square.svg" alt="" class="contact-form">
+            </div>
+            <input type="text" readonly placeholder="Write your message...">
+        </div>
+        <textarea name="" id="text-area-form" cols="30" rows="10"></textarea>
 
-</html>
+    </form>
+</div>

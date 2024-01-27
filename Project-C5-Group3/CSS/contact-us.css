@@ -3,6 +3,7 @@
     width: 100%;
     background-image: url(../img/logo/Atorn_background-contact.jpeg);
     background-position: center;
+    /* background-repeat: no-repeat; */
     object-fit: cover;
 }
 
@@ -15,15 +16,12 @@
     padding-bottom: 20px;
 }
 
-.contact-us-sociallink {
-    padding-bottom: 20px;
-}
-
 .socialmedia2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    padding-top: 20px;
 }
 
 .facebook2,
@@ -49,12 +47,48 @@
 
 .getintouch {
     padding-bottom: 30px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
+.getintouch-p1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-us-number {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+
+.contact-us-sociallink {
+    color: #fff;
+    border-bottom: 2px solid #c82424;
+    width: 55px;
+    text-wrap: nowrap;
+    border-width: 2.5px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
 
 .contact-us-h3 {
     padding-bottom: 20px;
     padding-top: 20px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .forms {
@@ -103,7 +137,12 @@ input {
 }
 
 .contact-form ::placeholder {
-    color: black;
+    color: #2D2D2D;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 textarea {

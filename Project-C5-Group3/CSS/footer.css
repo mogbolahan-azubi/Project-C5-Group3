@@ -9,9 +9,6 @@ footer {
     padding-right: 20px;
 }
 
-.footer-content i {
-    filter: invert(40%) sepia(100%) saturate(688%) hue-rotate(343deg) brightness(103%) contrast(103%);
-}
 
 .footer-content p {
     color: #FFF;
@@ -51,4 +48,28 @@ footer {
 .twitter3 img,
 .instagram3 img {
     filter: invert(16%) sepia(54%) saturate(3694%) hue-rotate(345deg) brightness(118%) contrast(97%);
+}
+
+.footer-qlinks p {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 2px solid #c82424;
+    width: 55px;
+    text-wrap: nowrap;
+    border-width: 2.5px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-qlinks li {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

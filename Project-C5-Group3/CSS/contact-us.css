@@ -19,19 +19,38 @@
     padding-bottom: 20px;
 }
 
+.socialmedia2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 .facebook2,
 .twitter2,
 .instagram2 {
     display: flex;
+    flex-direction: column;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid #c82424;
     border-width: 1px;
     width: 30px;
     height: 30px;
     align-items: center;
     justify-content: center;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    background-color: white;
 }
+
+.facebook2 img,
+.twitter2 img,
+.instagram2 img {
+    filter: invert(40%) sepia(100%) saturate(688%) hue-rotate(343deg) brightness(103%) contrast(103%);
+}
+
+.getintouch {
+    padding-bottom: 30px;
+}
+
 
 .contact-us-h3 {
     padding-bottom: 20px;

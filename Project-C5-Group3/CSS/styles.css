@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
 
 @import "./general.css";
@@ -6,4 +5,5 @@
 @import "./services.css";
 @import "./about.css";
 @import "./message.css";
-@import "./contact-us.css"
+@import "./contact-us.css";
+@import "./partners.css";

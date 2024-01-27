@@ -1,0 +1,39 @@
+.partners {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-p {
+    color: #6C6C6C;
+    border-bottom: 2px solid #c82424;
+    width: 55px;
+    text-wrap: nowrap;
+    border-width: 2.5px;
+    padding-bottom: 10px;
+    font-family: Merriweather;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.partners-h1 {
+    color: #000;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partners-i img {
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}

@@ -168,3 +168,51 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+/* Tablet Styles */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer-content p {
+        font-size: 16px;
+    }
+
+    .footer-qlinks p,
+    .footer-services p,
+    .footer-contact-info p {
+        font-size: 24px;
+    }
+
+    .footer-qlinks li,
+    .footer-services li,
+    .footer-contact-info li {
+        font-size: 16px;
+    }
+
+    .end-note p {
+        font-size: 18px;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1025px) {
+    .footer-content p {
+        font-size: 18px;
+    }
+
+    .footer-qlinks p,
+    .footer-services p,
+    .footer-contact-info p {
+        font-size: 28px;
+    }
+
+    .footer-qlinks li,
+    .footer-services li,
+    .footer-contact-info li {
+        font-size: 18px;
+    }
+
+    .end-note p {
+        font-size: 20px;
+    }
+}

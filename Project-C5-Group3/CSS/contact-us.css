@@ -161,3 +161,111 @@ textarea {
     border: none;
     /* margin-bottom: 20px; */
 }
+
+/* Tablet Styles */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact-bg-overlay-text {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .socialmedia2 {
+        padding-top: 30px;
+    }
+
+    .getintouch {
+        font-size: 20px;
+    }
+
+    .getintouch-p1 {
+        font-size: 14px;
+    }
+
+    .contact-us-number {
+        font-size: 20px;
+    }
+
+    .contact-us-sociallink {
+        padding-top: 50px;
+    }
+
+    .contact-us-h3 {
+        font-size: 20px;
+    }
+
+    .forms {
+        width: 75%;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    .contact-form ::placeholder {
+        font-size: 20px;
+    }
+
+    textarea {
+        margin-top: -30px;
+    }
+
+    .contact-us-button {
+        height: 40px;
+        width: 180px;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1025px) {
+    .contact-bg-overlay-text {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .socialmedia2 {
+        padding-top: 40px;
+    }
+
+    .getintouch {
+        font-size: 22px;
+    }
+
+    .getintouch-p1 {
+        font-size: 16px;
+    }
+
+    .contact-us-number {
+        font-size: 22px;
+    }
+
+    .contact-us-sociallink {
+        padding-top: 60px;
+    }
+
+    .contact-us-h3 {
+        font-size: 22px;
+    }
+
+    .forms {
+        width: 60%;
+    }
+
+    input {
+        font-size: 22px;
+    }
+
+    .contact-form ::placeholder {
+        font-size: 22px;
+    }
+
+    textarea {
+        margin-top: -40px;
+    }
+
+    .contact-us-button {
+        height: 45px;
+        width: 200px;
+    }
+}

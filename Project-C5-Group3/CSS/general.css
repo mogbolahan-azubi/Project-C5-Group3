@@ -196,3 +196,85 @@ button a {
         display: none;
     }
 }
+
+
+
+/* Tablet Styles */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .topcontact,
+    .topsocials {
+        width: 60%;
+    }
+
+    .topnav_list a {
+        font-size: 18px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .topnav_list {
+        display: flex;
+        /* gap: 19px; */
+    }
+
+    .topnav_list a {
+        padding: 5px;
+        text-decoration: none;
+        display: flex;
+        color: #000;
+    }
+
+    nav {
+        display: flex;
+        margin-right: 15px;
+        gap: 19px;
+    }
+
+    .menu-overlay {
+        display: none;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1025px) {
+
+    .topcontact,
+    .topsocials {
+        width: 70%;
+    }
+
+    .topnav_list a {
+        font-size: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .topnav_list {
+        display: flex;
+        /* gap: 19px; */
+    }
+
+    .topnav_list a {
+        padding: 5px;
+        text-decoration: none;
+        display: flex;
+        color: #000;
+    }
+
+    nav {
+        display: flex;
+        margin-right: 15px;
+        gap: 19px;
+    }
+
+    .menu-overlay {
+        display: none;
+    }
+}

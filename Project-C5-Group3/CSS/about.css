@@ -70,3 +70,35 @@
     border: none;
     margin-bottom: 20px;
 }
+
+/* Tablet Styles */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-us h1 {
+        font-size: 28px;
+    }
+
+    .about-us-text {
+        font-size: 16px;
+    }
+
+    .icons {
+        font-size: 16px;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1025px) {
+    .about-us h1 {
+        font-size: 32px;
+    }
+
+    .about-us-text {
+        font-size: 18px;
+    }
+
+    .icons {
+        font-size: 18px;
+    }
+}
